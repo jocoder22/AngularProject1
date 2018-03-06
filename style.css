@@ -5,20 +5,29 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.col-sm-12 {
+.col-md-12 {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
+    height: calc(100vh / 4);
 }
 
 .box1 {
-    height: calc(100% / 4);
-    width: calc(100% / 3);
+    height: 100%;
+    width: 100%;
     background-color: chocolate;
+    text-align: center;
+    font-size: 0px;
 }
 
+
 .box1:hover {
-    height: calc(100% / 8);
-    width: calc(100% / 6);
-    background-color: blueviolet;
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: rgb(127, 71, 179);
+    font: italic normal bold 60px normal;
+    text-decoration: line-through;
+    color: rgb(59, 136, 100);
+    text-decoration-color: rgb(201, 22, 31);
+    text-shadow: 4px 3px rgb(102, 165, 190); 
 }
