@@ -9,17 +9,22 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: calc(100vh / 4);
+    height: calc(100vh / 3);
 }
 
 .box1 {
     height: 100%;
-    width: 100%;
+    width: 60%;
     background-color: chocolate;
     text-align: center;
     font-size: 0px;
+    /* margin: auto; */
 }
 
+.col-md-12:hover {
+    display: block;
+    margin: auto;
+}
 
 .box1:hover {
     height: calc(100% / 2);
@@ -30,4 +35,5 @@ body {
     color: rgb(59, 136, 100);
     text-decoration-color: rgb(201, 22, 31);
     text-shadow: 4px 3px rgb(102, 165, 190); 
+    margin: auto;
 }
