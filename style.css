@@ -5,3 +5,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
