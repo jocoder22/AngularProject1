@@ -8,7 +8,7 @@ body {
 
 
 .col-md-12 {
-    height: calc(100vh / 3);
+    height: calc(100vh / 4);
     text-align: center;
 }
 
@@ -35,7 +35,12 @@ body {
     margin: auto;
 }
 
-.img{
-    width: 100%;
+.img-holder{
+    /* width: 100%; */
     height: calc(100vh / 4);
+}
+
+img {
+    height: 100%;
+    widows: 100%;
 }
